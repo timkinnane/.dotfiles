@@ -1,0 +1,58 @@
+[Homebrew]: https://docs.brew.sh/
+[Granted]: https://granted.dev
+[VS-Code]: https://code.visualstucdio.com/
+[Glow]: https://github.com/charmbracelet/glow
+[Authy]: https://authy.com/
+[Homebrew]: https://docs.brew.sh/
+[Alfred]: https://www.alfredapp.com/
+[Insomnia]: https://insomnia.rest/
+[Tabby]: https://tabby.sh/
+[Stow]: https://www.gnu.org/software/stow/manual/stow.html
+[ASDF]: http://asdf-vm.com/
+[Oh-My-ZSH]: https://github.com/ohmyzsh/ohmyzsh/
+[ZimFW]: https://github.com/zimfw/zimfw
+
+# Install
+
+This repo is self-installing for consistent cross-machine configuration. [See tutorial for more info.](https://www.jakewiesler.com/blog/managing-dotfiles)
+Run the install script below.
+
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/timkinnane/dotfiles/trunk/bin/install.sh)"
+```
+
+## Process
+
+The install script will do the following:
+1. Clones the repo to  `$HOME/.dotfiles`
+2. Set ZSH as default shell
+3. Installs [Homebrew] utility bundle, including apps:
+	- [Visual Studio Code][VS-Code] for... code
+	- [Tabby] for cross platform terminal
+	- [Granted] for AWS SSO session management
+	- [Authy] for cloud synced 2FA codes
+	- [Insomnia] for API testing
+	- [Mockoon] for API mocking
+	- [Glow] to render markdown in shell
+1. Links "stows" to `$HOME` folder, including:
+	- A ZSH config file with sensible defaults
+	- A default bundle of Homebrew tools
+	- A script for storing shell secrets in Apple keychain
+	- NPM config for setting token for private package
+	- Yarn config for defaulting to use NPM token
+	- ASDF config for legacy version file support
+
+> 💁‍♂️ `.zshrc` will also source `.zshrc.local` if it exists, so add any personal configs there.
+
+## Shell Modules
+
+[ZimFW][ZimFW] is a plugin manager for ZSH. It is self-installed by the [ZSH profile](../zsh/.zshrc).
+If there's an issue loading plugins see [manual installation guide](https://github.com/zimfw/zimfw#manual-installation).
+
+[Stow] is used to link configs for tools that are required to be in the `$HOME` dir.
+It is installed by Homebew.
+
+Most paths in `.dotfiles` are linked as Stow packages by the install script.
+
+---
+Continue to [SECRETS](./SECRETS.md)
