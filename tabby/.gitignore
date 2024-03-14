@@ -1,0 +1,4 @@
+tabby/*
+!tabby/config.yaml
+!tabby/plugins/
+!tabby/plugins/node_modules/

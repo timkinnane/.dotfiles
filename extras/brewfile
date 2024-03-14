@@ -1,0 +1,15 @@
+# Personal Brewfile for apps
+# 
+tap "buo/cask-upgrade"
+brew "mas"
+brew "teamookla/speedtest/speedtest"
+cask "alfred" if OS.mac?
+cask "bitwarden" if OS.mac?
+cask "discord" if OS.mac?
+cask "firefox" if OS.mac?
+cask "google-drive" if OS.mac?
+cask "obsidian" if OS.mac?
+cask "plex" if OS.mac?
+cask "signal" if OS.mac?
+cask "spotify" if OS.mac?
+cask "tower" if OS.mac?

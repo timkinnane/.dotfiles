@@ -1,0 +1,10 @@
+[credential]
+	helper = osxkeychain
+[core]
+	excludesfile = ~/.gitignore
+[gpg]
+	program = /usr/local/bin/gpg
+[init]
+	defaultBranch = main
+[include]
+	path = /Users/tim-kinnane/.gitconfig-user
