@@ -1,0 +1,43 @@
+# Primary Brewfile for developer tools
+# 
+tap "homebrew/bundle"
+tap "homebrew/cask-fonts"
+brew "act"
+brew "asdf"
+brew "antibody"
+brew "awscli"
+brew "bat"
+brew "direnv"
+brew "gawk"
+brew "gh"
+brew "glibc" if OS.linux?
+brew "glow"
+brew "gnupg" if OS.mac?
+brew "common-fate/granted/granted"
+brew "graphviz"
+brew "gtksourceview3"
+brew "guile"
+brew "jq"
+brew "kcat"
+brew "mkcert"
+brew "openjdk"
+brew "pnpm"
+brew "pygobject3"
+brew "python@3.11"
+brew "snyk/tap/snyk"
+brew "starship"
+brew "stow"
+brew "wget"
+brew "yarn"
+cask "authy" if OS.mac?
+cask "mockoon" if OS.mac?
+cask "orbstack" if OS.mac?
+cask "qlmarkdown" if OS.mac?
+cask "tabby" if OS.mac?
+cask "visual-studio-code" if OS.mac?
+cask "font-fira-code" if OS.mac?
+cask "font-inconsolata" if OS.mac?
+cask "font-lato" if OS.mac?
+cask "font-noto-sans" if OS.mac?
+cask "font-victor-mono" if OS.mac?
+cask "font-work-sans" if OS.mac?
