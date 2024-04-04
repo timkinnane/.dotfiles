@@ -41,14 +41,3 @@ After adding a new package to `brewfile`, run `brew bundle install --file=$DOTFI
 **Commit and push** any changes above to save for future installs.
 
 **Re-running install** script will also reload modules `. $DOTFILES/install.sh`
-
-## Extras
-
-After developer environment is setup install personal apps as needed.
-
-Optionally use the [extras brewfile](../extras/brewfile) collection...
-
-```sh
-brew bundle --file=$HOME/.dotfiles/extras/brewfile
-```
-
