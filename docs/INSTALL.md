@@ -2,10 +2,8 @@
 [Granted]: https://granted.dev
 [VS-Code]: https://code.visualstucdio.com/
 [Glow]: https://github.com/charmbracelet/glow
-[Authy]: https://authy.com/
 [Homebrew]: https://docs.brew.sh/
 [Alfred]: https://www.alfredapp.com/
-[Insomnia]: https://insomnia.rest/
 [Tabby]: https://tabby.sh/
 [Stow]: https://www.gnu.org/software/stow/manual/stow.html
 [ASDF]: http://asdf-vm.com/
@@ -18,7 +16,7 @@ This repo is self-installing for consistent cross-machine configuration. [See tu
 Run the install script below.
 
 ```sh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/timkinnane/dotfiles/trunk/bin/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/timkinnane/.dotfiles/main/install.sh)"
 ```
 
 ## Process
@@ -30,9 +28,6 @@ The install script will do the following:
 	- [Visual Studio Code][VS-Code] for... code
 	- [Tabby] for cross platform terminal
 	- [Granted] for AWS SSO session management
-	- [Authy] for cloud synced 2FA codes
-	- [Insomnia] for API testing
-	- [Mockoon] for API mocking
 	- [Glow] to render markdown in shell
 1. Links "stows" to `$HOME` folder, including:
 	- A ZSH config file with sensible defaults
