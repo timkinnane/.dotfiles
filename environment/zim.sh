@@ -1,6 +1,6 @@
 # ZimFW
 # https://zimfw.sh/
-# The Zsh configuration framewor
+# The Zsh configuration framework
 
 ZIM_HOME=$HOME/.zim
 

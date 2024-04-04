@@ -192,17 +192,17 @@ terminal:
       - '#ff79c6'
       - '#8be9fd'
       - '#ffffff'
-  font: Inconsolata
+  font: Victor Mono
   ligatures: true
   cursor: underline
   customColorSchemes: []
   fallbackFont: Victor Mono
   hideTabIndex: true
-  linePadding: 2
-  fontWeight: 500
+  linePadding: 4
   copyAsHTML: false
   bell: audible
-  fontSize: 18
+  fontSize: 16
+  fontWeightBold: 600
 ssh: {}
 clickableLinks:
   modifier: metaKey
