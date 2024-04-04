@@ -7,7 +7,7 @@ DOTFILES=$HOME/.dotfiles
 #
 if [ ! -d "$DOTFILES" ]; then
   echo -e "🟡 Cloning DotFiles to $DOTFILES\n"
-  command git clone https://github.com/timkinnane/dotfiles.git $DOTFILES
+  command gh repo clone timkinnane/.dotfiles $DOTFILES
   command cd $DOTFILES
 else
   echo -e "\n✅ DotFiles repo exists at $DOTFILES"
