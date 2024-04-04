@@ -23,7 +23,6 @@ source $DOTFILES/environment/secret.sh
 # Export dotfiles secrets
 secret export NPM_TOKEN --silent
 secret export VERCEL_TOKEN --silent
-secret export CERTIFICATE_BUNDLE --silent
 secret export HOME_TOWN --silent
 secret export WORK_PATH --silent
 secret export DEV_PATH --silent

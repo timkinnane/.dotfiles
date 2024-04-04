@@ -14,7 +14,6 @@ Set **all below** that apply, e.g. `secret set NPM_TOKEN "<YOUR_TOKEN>"`
 | -------------------- | ------------------------------------------------------- | ------------------------------- |
 | `NPM_TOKEN`          | Allow pulling private packages from the NPM registry    |                                 |
 | `GITHUB_TOKEN`       | Set to allow interactions with API or packages registry |                                 |
-| `CERTIFICATE_BUNDLE` | Set a cert bundle path for Node, AWS, SSL etc           | `$HOME/.ssl/zscaler-bundle.pem` |
 | `HOME_TOWN`          | Set for `weather` alias using [Weather CLI]             | `LONDON`                        |
 | `WORK_PATH`          | Set to folder for work projects for `work` alias        | `/Volumes/x/work`               |
 | `DEV_PATH`           | Set to folder for personal projects for `dev` alias     | `/Volumes/x/dev`                |
