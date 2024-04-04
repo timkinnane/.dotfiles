@@ -33,5 +33,21 @@ Ensure it's working before proceeding...
 brew -v
 ```
 
+## Github
+
+Since Github auth from the default terminal can be tricky, the best approach to cloning this repo is to use the GitHub CLI.
+
+Install it with Homebrew...
+
+```
+brew install gh
+```
+
+Then authenticate your user, via web login...
+
+```
+gh auth login
+```
+
 ---
 Continue to [INSTALL](./INSTALL.md)
