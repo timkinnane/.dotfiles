@@ -10,9 +10,8 @@ brew "bat"
 brew "direnv"
 brew "gawk"
 brew "gh"
-brew "glibc" if OS.linux?
 brew "glow"
-brew "gnupg" if OS.mac?
+brew "gnupg"
 brew "common-fate/granted/granted"
 brew "graphviz"
 brew "gtksourceview3"
@@ -29,15 +28,13 @@ brew "starship"
 brew "stow"
 brew "wget"
 brew "yarn"
-cask "authy" if OS.mac?
-cask "mockoon" if OS.mac?
-cask "orbstack" if OS.mac?
-cask "qlmarkdown" if OS.mac?
-cask "tabby" if OS.mac?
-cask "visual-studio-code" if OS.mac?
-cask "font-fira-code" if OS.mac?
-cask "font-inconsolata" if OS.mac?
-cask "font-lato" if OS.mac?
-cask "font-noto-sans" if OS.mac?
-cask "font-victor-mono" if OS.mac?
-cask "font-work-sans" if OS.mac?
+cask "orbstack"
+cask "qlmarkdown"
+cask "tabby"
+cask "visual-studio-code"
+cask "font-fira-code"
+cask "font-inconsolata"
+cask "font-lato"
+cask "font-noto-sans"
+cask "font-victor-mono"
+cask "font-work-sans"
