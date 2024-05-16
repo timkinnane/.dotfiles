@@ -43,6 +43,7 @@ source $DOTFILES/environment/search.sh
 source $DOTFILES/environment/starship.sh
 source $DOTFILES/environment/starship.sh
 source $DOTFILES/environment/upbrew.sh
+source $DOTFILES/environment/utils.sh
 source $DOTFILES/environment/weather.sh
 source $DOTFILES/environment/yarn.sh
 source $DOTFILES/environment/zim.sh
