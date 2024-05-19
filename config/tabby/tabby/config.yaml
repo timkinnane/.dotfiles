@@ -199,8 +199,8 @@ terminal:
   linePadding: 4
   copyAsHTML: false
   bell: audible
-  fontSize: 16
-  fontWeightBold: 600
+  fontSize: 19
+  fontWeight: 500
 ssh: {}
 clickableLinks:
   modifier: metaKey
@@ -221,7 +221,7 @@ profileDefaults:
 backgroundPlugin:
   backgroundEnabled: true
   uiFontEnabled: true
-  uiFontFamily: Work Sans
+  uiFontFamily: Poppins
   backgroundPath: /Users/tim-kinnane/Downloads/Precursor Desktop.png
   backgroundOpacity: 29
   backgroundBlur: 0.6

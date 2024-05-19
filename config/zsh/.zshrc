@@ -49,3 +49,4 @@ source $DOTFILES/environment/weather.sh
 source $DOTFILES/environment/yarn.sh
 source $DOTFILES/environment/zim.sh
 source $DOTFILES/environment/zsh.sh
+source $DOTFILES/environment/utils.sh
