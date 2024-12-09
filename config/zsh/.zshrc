@@ -23,17 +23,14 @@ source $DOTFILES/environment/secret.sh
 
 # Export dotfiles secrets
 secret export NPM_TOKEN --silent
-secret export VERCEL_TOKEN --silent
 secret export HOME_TOWN --silent
-secret export WORK_PATH --silent
 secret export DEV_PATH --silent
 secret export GIT_NAME --silent
 secret export GIT_EMAIL --silent
 secret export GIT_USERNAME --silent
 
 # Source environment extensions
-source $DOTFILES/environment/asdf.sh
-source $DOTFILES/environment/awssdk.sh
+source $DOTFILES/environment/asdf.shsource $DOTFILES/environment/awssdk.sh
 source $DOTFILES/environment/certs.sh
 source $DOTFILES/environment/git.sh
 source $DOTFILES/environment/granted.sh
